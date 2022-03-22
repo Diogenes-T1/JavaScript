@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area {
+            background-color: rgb(21, 121, 21);
+            color: white;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font: bold 20pt arial;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id= "area" onclick="clicar()">
+        Clique aqui...
+
+    </div>
+
+    <script>
+        function clicar() {
+            var area = window.document.getElementById('area')
+            area.innerText = 'Otária! xD'
+        }
+    </script>
+    
+</body>
+</html>
