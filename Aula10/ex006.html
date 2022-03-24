@@ -9,12 +9,15 @@
         div#area {
             background-color: rgb(21, 121, 21);
             color: white;
-            width: 300px;
-            height: 300px;
+            width: 400px;
+            height: 400px;
             display: flex;
             justify-content: center;
             align-items: center;
             font: bold 20pt arial;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px; 
             
         }
     </style>
@@ -26,9 +29,10 @@
     </div>
 
     <script>
+        var area = window.document.getElementById('area')
         function clicar() {
-            var area = window.document.getElementById('area')
             area.innerText = 'Otária! xD'
+            area.style.background = 'black'
         }
     </script>
     
