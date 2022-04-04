@@ -1,4 +1,4 @@
-var país = 'Japão'
+var país = 'Brasil'
 console.log (`- A minha nacionalidade é ${país}`)
 if (país == 'Brasil') {
     console.log( 'Infelizmente você é brasileiro!')
